@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Sri Lakshmi Ganapathi | Natural Areca Leaf Plates Manufacturer - Eluru</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Sri Lakshmi Ganapathi - Leading manufacturer of 100% natural, biodegradable areca palm leaf plates, bowls and cutlery in Eluru, Andhra Pradesh. Sustainable. Natural. Pure. Factory direct prices and doorstep delivery in Eluru.">
+  <meta name="keywords" content="areca plates Eluru, areca leaf plates manufacturer, Sri Lakshmi Ganapathi, eco friendly plates Eluru, biodegradable dinnerware Andhra Pradesh, wedding combo plates, natural palm leaf tableware, catering plates Eluru">
+  <meta name="author" content="Sri Lakshmi Ganapathi">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Sri Lakshmi Ganapathi | Areca Leaf Plates Manufacturer - Eluru">
+  <meta property="og:description" content="Sustainable. Natural. Pure. 100% natural and compostable areca palm leaf tableware made in Eluru, Andhra Pradesh.">
+  <meta property="og:image" content="/static/assets/images/brand_logo.png">
+
+  <!-- PWA Meta Tags -->
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#1F6B3A">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="SLG Areca">
+  
+  <link rel="icon" type="image/png" href="/static/assets/images/favicon.png">
+  <link rel="apple-touch-icon" href="/static/assets/images/icon-192.png">
+
+  <!-- Google Fonts: Plus Jakarta Sans & Playfair Display -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;0,900;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            deepgreen: '#1F6B3A',
+            leafgreen: '#7DB545',
+            cream: '#FAF8F2',
+          },
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
+            serif: ['"Playfair Display"', 'Georgia', 'serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Chart.js for Owner Dashboard Analytics -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="/static/css/styles.css?v=2.4">
+</head>
+<body class="bg-[#FAF8F2] text-[#1A2E1F] antialiased selection:bg-[#7DB545] selection:text-white">
+  
+  <!-- Root SPA Container -->
+  <div id="app-root">
+    <!-- Initial Loading State -->
+    <div class="min-h-screen flex flex-col items-center justify-center p-4">
+      <div class="w-16 h-16 rounded-full border-4 border-[#1F6B3A] border-t-transparent animate-spin mb-4"></div>
+      <h2 class="text-base font-bold text-[#1F6B3A] font-serif tracking-tight">SRI LAKSHMI GANAPATHI</h2>
+      <p class="text-xs text-[#7DB545] font-semibold tracking-wider mt-1">SUSTAINABLE. NATURAL. PURE.</p>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div id="toast-container"></div>
+
+  <!-- Force Refresh Service Worker Cache if needed -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.getRegistrations().then(function(regs) {
+        for (let reg of regs) {
+          reg.update();
+        }
+      });
+    }
+  </script>
+
+  <!-- Main Application Script -->
+  <script src="/static/js/app.js?v=2.4"></script>
+</body>
+</html>
